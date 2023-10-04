@@ -1,10 +1,10 @@
-# My Codeforces submission Repo
-
-## Template
-```cpp
 #include <bits/stdc++.h>
 void fun(){
-    
+    std::vector<int> sus;
+    int n,k;
+    std::cin >> n >> k;
+    std::string input;
+
 }
 int main(){
     int x;
@@ -13,4 +13,3 @@ int main(){
         fun();
     }
 }
-```

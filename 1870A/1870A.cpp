@@ -1,9 +1,7 @@
-# My Codeforces submission Repo
-
-## Template
-```cpp
 #include <bits/stdc++.h>
 void fun(){
+    int a,b,c;
+    std::cin >> a >> b >> c;
     
 }
 int main(){
@@ -13,4 +11,3 @@ int main(){
         fun();
     }
 }
-```
