@@ -91,5 +91,6 @@
         "variant": "cpp",
         "format": "cpp",
         "stdfloat": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
