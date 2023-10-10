@@ -12,8 +12,9 @@ void fun(){
 int main(){
     int x;
     std::cin >> x;
-    for (x--){
+    while(x--){
         fun();
     }
+    return 0;
 }
 ```
