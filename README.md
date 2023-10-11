@@ -6,12 +6,16 @@ Easier to setup in VSCode's devcontainer feature. But might require my dockerfil
 ## Template
 ```cpp
 #include <bits/stdc++.h>
+#define ll long long;
+using namespace std;
 void fun(){
     
 }
 int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(null)
     int x;
-    std::cin >> x;
+    cin >> x;
     while(x--){
         fun();
     }
