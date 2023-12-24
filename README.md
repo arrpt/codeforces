@@ -6,7 +6,8 @@ Easier to setup in VSCode's devcontainer feature. But might require my dockerfil
 ## Template
 ```cpp
 #include <bits/stdc++.h>
-#define ll long long;
+#define ll long long
+#define str std::string;
 using namespace std;
 void fun(){
     

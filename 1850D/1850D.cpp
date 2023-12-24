@@ -4,31 +4,20 @@ using namespace std;
 void fun(){
     int n,k;
     cin >> n >> k;
-    if (k==1){
-        cout << "0" << endl;
+    vector<int> nums;
+    if (n == 1)
+    {
+        cout << 0 << endl;
         return;
     }
-    vector<int> nums;
-    int ans;
-    for (int i=0; i<k; i++){
-        int temp;
-        cin >> temp;
-        nums.push_back(temp);
-    }
-    sort(nums.begin(),nums.end());
-    vector<int> temp;
-    int before = 0;
-    int temp2 = 0;
-    for (int l=1; l<nums.size(); l++){
-        if (nums[l]-nums[l-1]>1){
-            before = l;
+    else{
+        for (int i = 0; i < n; i++)
+        {
+            int x;
+            cin >> x;
+            nums.push_back(x);
         }
-        if ()
-    }
-    if (!temp.empty()) {
-    cout << nums.size() - *max_element(temp.begin(), temp.end()) << endl;
-    } else {
-    cout << nums.size() << endl; // If temp is empty, there are no gaps, so the result is the size of the nums vector.
+        sort(nums.begin(),nums.end());
     }
     return;
 }
