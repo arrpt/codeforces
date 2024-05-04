@@ -19,12 +19,23 @@ int gcd(int a, int b){
 }
      
 void solve(){
-    vector<vector<char>> arr(10, vector<char>(10));
-    for (int i = 0; i < 10; i++){
-        for (int j = 0; j < 10; j++){
-            cin >> arr[]
+    int n;
+    cin >> n;
+    vector<ll> arr(n);
+    for (int i = 0; i < n; i++){
+        cin >> arr[i];
+    }
+    ll one = 0;
+    ll sum = 0;
+    for (int i = 0; i < n; i++){
+        sum += arr[i];
+        if (arr[i] == 1){
+            one++;
         }
     }
+    if (sum >= one + n && n>1){
+        cout << "YES" << endl;
+    } else cout << "NO" << endl;
 }
 signed main(){
     ios_base::sync_with_stdio(0);
