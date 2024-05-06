@@ -39,7 +39,16 @@ void solve(){
             used += 2;
         }
     }
-    cout << helper(n - used) << endl;
+    int sum = 0;
+    ll* arr = new ll[n - used + 1];
+    //vector<ll> arr(n - used + 1);
+    arr[0] = 1;
+    arr[1] = 1;
+    for (int i = 2; i < n - used + 1; i++){
+        arr[i] = (arr[i-1] + 2*(i-1)*arr[i-2] % MOD) % MOD ;
+    }
+    cout << arr[n - used] << endl;
+    //cout << helper(n - used) << endl;
 
 }
 signed main(){
