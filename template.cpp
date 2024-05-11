@@ -4,8 +4,8 @@
 #define ll long long
 #define ld long double
 #define CEIL(m,n) ((m)+(n)-1)/(n)
-#define froggy(n) ((((n)%MOD)+MOD)%MOD)
 const int MOD = 1000000007;
+#define froggy(n) ((((n)%MOD)+MOD)%MOD)
 
 using namespace __gnu_pbds;
 using namespace std;
